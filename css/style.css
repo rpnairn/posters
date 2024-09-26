@@ -1,0 +1,146 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    background-color: #bb7bff;
+    max-width: 1000px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(82, 0, 134);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border: 100 px;
+    border-color: darkred;
+}
+
+p {
+    font-size:x-large
+}
+
+main div p {
+    font-size: 12pt;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: white;
+}
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    background-color: rgb(234, 207, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding: 10px;
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+
+    font-size: 12pt;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    padding: 25px;
+}
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+#wes1 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes2 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes3 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes4 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes5 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes6 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes7 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes8 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
+
+#wes9 {
+    text-align: left;
+    margin: 25px;
+    border: 25px;
+    width: 25%;
+}
